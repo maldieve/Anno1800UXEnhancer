@@ -43,8 +43,8 @@ const unsigned int trading_params::count_rows = 3;
 const float trading_params::off_x = 0;
 const float trading_params::off_y = 0;
 
-const cv::Rect2f trading_params::pane_menu_offering = cv::Rect2f(cv::Point2f(trading_params::off_x + 0.62303, trading_params::off_y + 0.42088), cv::Point2f(trading_params::off_x + 0.78273, trading_params::off_y + 0.67813));
-const cv::Rect2f trading_params::pane_menu_offering_with_counter = cv::Rect2f(cv::Point2f(trading_params::off_x + 0.62303, trading_params::off_y + 0.46742), cv::Point2f(trading_params::off_x + 0.78181, trading_params::off_y + 0.72466));
+const cv::Rect2f trading_params::pane_menu_offering = cv::Rect2f(cv::Point2f(trading_params::off_x + 0.62303, trading_params::off_y + 0.4048), cv::Point2f(trading_params::off_x + 0.78253, trading_params::off_y + 0.66492));
+const cv::Rect2f trading_params::pane_menu_offering_with_counter = cv::Rect2f(cv::Point2f(trading_params::off_x + 0.62272, trading_params::off_y + 0.45134), cv::Point2f(trading_params::off_x + 0.78265, trading_params::off_y + 0.71442));
 const cv::Rect2f trading_params::pane_menu_name = cv::Rect2f(cv::Point2f(trading_params::off_x + 0.64018, trading_params::off_y + 0.33630), cv::Point2f(trading_params::off_x + 0.75973, trading_params::off_y + 0.36261));
 const cv::Rect2f trading_params::pane_menu_reroll = cv::Rect2f(cv::Point2f(trading_params::off_x + 0.68871, trading_params::off_y + 0.70479), cv::Point2f(trading_params::off_x + 0.71735, trading_params::off_y + 0.75452));
 const cv::Rect2f trading_params::pane_menu_execute = cv::Rect2f(cv::Point2f(trading_params::off_x + 0.43937, trading_params::off_y + 0.76836), cv::Point2f(trading_params::off_x + 0.56126, trading_params::off_y + 0.79713));
