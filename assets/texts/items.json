@@ -174,7 +174,8 @@
         8351,
         8355,
         8908,
-        8417
+        8417,
+        8356
       ],
       "locaText": {
         "english": "Isabel Sarmento",
@@ -1355,6 +1356,20 @@
         115478,
         115481,
         114637,
+        190448,
+        116040,
+        114798,
+        115473,
+        115474,
+        115476,
+        115479,
+        115482,
+        115470,
+        115273,
+        114794,
+        115477,
+        115480,
+        115483,
         116041,
         116069,
         116078,
@@ -2197,6 +2212,32 @@
         "russian": "Сальвадор Стойкий",
         "spanish": "Salvador, el Leal",
         "taiwanese": "僕人薩爾瓦多"
+      }
+    },
+    {
+      "guid": 8356,
+      "price": 592800,
+      "icon": "icon_shepherd_510.png",
+      "rarity": 118006,
+      "allocation": 4065,
+      "tradePriceModifier": 0,
+      "traders": [
+        29
+      ],
+      "locaText": {
+        "english": "Pedro, Captain of the \"Panama\"",
+        "german": "Pedro, Kapitän der „Panama“",
+        "brazilian": "Pedro, Captain of the \"Panama\"",
+        "chinese": "佩德罗，“巴拿马”的船长",
+        "french": "Pedro, capitaine du Panama",
+        "italian": "Pedro, capitano del \"Panama\"",
+        "japanese": "「パナマ号」の船長ペドロ",
+        "korean": "\"파나마\" 선장 페드로",
+        "polish": "Pedro, kapitan \"Panamy\"",
+        "portuguese": "Pedro, Captain of the \"Panama\"",
+        "russian": "Педро, капитан \"Панамы\"",
+        "spanish": "Pedro, capitán del Panamá",
+        "taiwanese": "佩德羅，「巴拿馬」的船長"
       }
     },
     {
@@ -3677,7 +3718,7 @@
         "polish": "Podpalacz",
         "portuguese": "Arsonist",
         "russian": "Поджигатель",
-        "spanish": "Pirómano",
+        "spanish": "Pirómana",
         "taiwanese": "縱火犯"
       }
     },
@@ -3911,7 +3952,7 @@
         "polish": "Antyklerykalny wykładowca",
         "portuguese": "Anti-Clerical Lecturer",
         "russian": "Лектор-атеист",
-        "spanish": "Académica anticlerical",
+        "spanish": "Académico anticlerical",
         "taiwanese": "反教權講師"
       }
     },
@@ -4287,8 +4328,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77,
         78
       ],
@@ -4316,8 +4357,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4370,8 +4411,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77,
         78
       ],
@@ -4399,8 +4440,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77,
         78
       ],
@@ -4428,8 +4469,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4456,8 +4497,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4536,8 +4577,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77,
         78
       ],
@@ -4565,8 +4606,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77,
         78
       ],
@@ -4594,8 +4635,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77,
         78
       ],
@@ -4623,8 +4664,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4651,8 +4692,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4679,8 +4720,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4785,8 +4826,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4813,8 +4854,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4841,8 +4882,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4869,8 +4910,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4897,8 +4938,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -4925,8 +4966,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77
       ],
       "locaText": {
@@ -6065,6 +6106,32 @@
       }
     },
     {
+      "guid": 114794,
+      "price": 609900,
+      "icon": "icon_museum_mammoth.png",
+      "rarity": 118006,
+      "allocation": 2351,
+      "tradePriceModifier": 0,
+      "traders": [
+        237
+      ],
+      "locaText": {
+        "english": "Frozen Woolly Mammoth",
+        "german": "Eingefrorenes Wollhaarmammut",
+        "brazilian": "Frozen Woolly Mammoth",
+        "chinese": "冰冻毛茸茸长毛象",
+        "french": "Mammouth laineux gelé",
+        "italian": "Mammut lanoso congelato",
+        "japanese": "毛の生えた氷漬けのマンモス",
+        "korean": "얼어붙은 털북숭이 매머드",
+        "polish": "Zamrożony mamut włochaty",
+        "portuguese": "Frozen Woolly Mammoth",
+        "russian": "Замерзший шерстистый мамонт",
+        "spanish": "Mamut lanudo congelado",
+        "taiwanese": "冰凍毛茸茸長毛象"
+      }
+    },
+    {
       "guid": 114796,
       "price": 77100,
       "icon": "icon_inukshuk.png",
@@ -6088,6 +6155,32 @@
         "russian": "Инуксук инунгуак",
         "spanish": "Inunnguaq Inuksuk",
         "taiwanese": "人形石標"
+      }
+    },
+    {
+      "guid": 114798,
+      "price": 223900,
+      "icon": "icon_igluit.png",
+      "rarity": 118005,
+      "allocation": 2351,
+      "tradePriceModifier": 0,
+      "traders": [
+        237
+      ],
+      "locaText": {
+        "english": "Igluit",
+        "german": "Igluit",
+        "brazilian": "Igluit",
+        "chinese": "冰屋",
+        "french": "Igluit",
+        "italian": "Iglù",
+        "japanese": "イグルー",
+        "korean": "이글루",
+        "polish": "Igluit",
+        "portuguese": "Igluit",
+        "russian": "Иглу",
+        "spanish": "Iglús",
+        "taiwanese": "冰屋"
       }
     },
     {
@@ -6741,6 +6834,32 @@
       }
     },
     {
+      "guid": 115273,
+      "price": 689400,
+      "icon": "icon_narwhale.png",
+      "rarity": 118006,
+      "allocation": 2349,
+      "tradePriceModifier": 0,
+      "traders": [
+        237
+      ],
+      "locaText": {
+        "english": "Narwhal",
+        "german": "Narwal",
+        "brazilian": "Narwhal",
+        "chinese": "独角鲸",
+        "french": "Narval",
+        "italian": "Narvalo",
+        "japanese": "イッカク",
+        "korean": "일각고래",
+        "polish": "Narwal",
+        "portuguese": "Narwhal",
+        "russian": "Нарвал",
+        "spanish": "Narval",
+        "taiwanese": "獨角鯨"
+      }
+    },
+    {
       "guid": 115469,
       "price": 18600,
       "icon": "icon_arctic_fox.png",
@@ -6764,6 +6883,32 @@
         "russian": "Полярная лисица",
         "spanish": "Zorro ártico",
         "taiwanese": "北極狐"
+      }
+    },
+    {
+      "guid": 115470,
+      "price": 721000,
+      "icon": "icon_great_auk.png",
+      "rarity": 118006,
+      "allocation": 2349,
+      "tradePriceModifier": 0,
+      "traders": [
+        237
+      ],
+      "locaText": {
+        "english": "Great Auk",
+        "german": "Riesenalk",
+        "brazilian": "Great Auk",
+        "chinese": "大海雀",
+        "french": "Grand pingouin",
+        "italian": "Alca impenne",
+        "japanese": "オオウミガラス",
+        "korean": "큰바다오리",
+        "polish": "Alka olbrzymia",
+        "portuguese": "Great Auk",
+        "russian": "Бескрылая гагарка",
+        "spanish": "Gran Auk",
+        "taiwanese": "大海雀"
       }
     },
     {
@@ -6819,6 +6964,58 @@
       }
     },
     {
+      "guid": 115473,
+      "price": 214000,
+      "icon": "icon_qilakitsoq_mummy.png",
+      "rarity": 118005,
+      "allocation": 2351,
+      "tradePriceModifier": 0,
+      "traders": [
+        237
+      ],
+      "locaText": {
+        "english": "Uummannaq Mummy",
+        "german": "Uummannaq-​ Mumie",
+        "brazilian": "Uummannaq Mummy",
+        "chinese": "乌玛纳克的木乃伊",
+        "french": "Momie d'Uummannaq",
+        "italian": "Mummia di Uummannaq",
+        "japanese": "ウマナックのミイラ",
+        "korean": "우마나크 미라",
+        "polish": "Mumia Uummannaq",
+        "portuguese": "Uummannaq Mummy",
+        "russian": "Мумия из Уманака",
+        "spanish": "Momia de Uummannaq",
+        "taiwanese": "烏瑪納克的木乃伊"
+      }
+    },
+    {
+      "guid": 115474,
+      "price": 213600,
+      "icon": "icon_wolf_mummy.png",
+      "rarity": 118005,
+      "allocation": 2351,
+      "tradePriceModifier": 0,
+      "traders": [
+        237
+      ],
+      "locaText": {
+        "english": "Wolf Pup Mummy",
+        "german": "Wolfswelpen-​ Mumie",
+        "brazilian": "Wolf Pup Mummy",
+        "chinese": "幼狼木乃伊",
+        "french": "Momie de louveteau",
+        "italian": "Mamma del cucciolo di lupo",
+        "japanese": "狼の子供のミイラ",
+        "korean": "새끼 늑대 미라",
+        "polish": "Mumia szczeniaka wilka",
+        "portuguese": "Wolf Pup Mummy",
+        "russian": "Мумия волчонка",
+        "spanish": "Momia de lobezno",
+        "taiwanese": "幼狼木乃伊"
+      }
+    },
+    {
       "guid": 115475,
       "price": 20000,
       "icon": "item_treasuremap_passage_01.png",
@@ -6826,8 +7023,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77,
         78,
         237
@@ -6856,9 +7053,10 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
-        77
+        76,
+        77,
+        237
       ],
       "locaText": {
         "english": "Map of a Huddlesome Bay Trading Post",
@@ -6884,7 +7082,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        77
+        77,
+        237
       ],
       "locaText": {
         "english": "The Portal to Hyperborea",
@@ -6910,8 +7109,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77,
         78,
         237
@@ -6940,9 +7139,10 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
-        77
+        76,
+        77,
+        237
       ],
       "locaText": {
         "english": "Map of an Arctic Basin",
@@ -6968,7 +7168,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        77
+        77,
+        237
       ],
       "locaText": {
         "english": "Megalodon's Abyss",
@@ -6994,8 +7195,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         77,
         237
       ],
@@ -7023,9 +7224,10 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
-        77
+        76,
+        77,
+        237
       ],
       "locaText": {
         "english": "Map of a Ghost Ship Sighting",
@@ -7051,7 +7253,8 @@
       "allocation": -1230,
       "tradePriceModifier": 0,
       "traders": [
-        77
+        77,
+        237
       ],
       "locaText": {
         "english": "Map of Old Nate's Prototype Airship Crash Site",
@@ -7067,6 +7270,32 @@
         "russian": "Карта: место крушения опытного образца аэростата старины Нейта",
         "spanish": "Mapa de la zona del accidente del modelo de dirigible del viejo Nate",
         "taiwanese": "老奈特原型飛船失事位置的地圖"
+      }
+    },
+    {
+      "guid": 116040,
+      "price": 213400,
+      "icon": "icon_walrus.png",
+      "rarity": 118005,
+      "allocation": 2349,
+      "tradePriceModifier": 0,
+      "traders": [
+        237
+      ],
+      "locaText": {
+        "english": "Walrus",
+        "german": "Walross",
+        "brazilian": "Walrus",
+        "chinese": "海象",
+        "french": "Morse",
+        "italian": "Tricheco",
+        "japanese": "セイウチ",
+        "korean": "바다코끼리",
+        "polish": "Mors",
+        "portuguese": "Walrus",
+        "russian": "Морж",
+        "spanish": "Morsa",
+        "taiwanese": "海象"
       }
     },
     {
@@ -10237,7 +10466,7 @@
         "polish": "Krawiec na zamówienie",
         "portuguese": "Bespoke Tailor",
         "russian": "Портной, работающий на заказ",
-        "spanish": "Sastre conocido",
+        "spanish": "Sastre conocida",
         "taiwanese": "訂做裁縫"
       }
     },
@@ -10393,7 +10622,7 @@
         "polish": "Mądry enbeski osadnik",
         "portuguese": "Wise Enbesan Homesteader",
         "russian": "Мудрый поселенец из Энбесы",
-        "spanish": "Colono enbesano sabio",
+        "spanish": "Colona enbesana sabia",
         "taiwanese": "有智慧的安貝沙放領耕地農"
       }
     },
@@ -11417,6 +11646,32 @@
         "russian": "Благородный олень",
         "spanish": "Ciervo rojo",
         "taiwanese": "赤鹿"
+      }
+    },
+    {
+      "guid": 190448,
+      "price": 234000,
+      "icon": "icon_polar_bear.png",
+      "rarity": 118005,
+      "allocation": 2349,
+      "tradePriceModifier": 0,
+      "traders": [
+        237
+      ],
+      "locaText": {
+        "english": "Polar Bear",
+        "german": "Polarbär",
+        "brazilian": "Polar Bear",
+        "chinese": "北极熊",
+        "french": "Ours polaire",
+        "italian": "Orso polare",
+        "japanese": "ホッキョクグマ",
+        "korean": "북극곰",
+        "polish": "Niedźwiedź polarny",
+        "portuguese": "Polar Bear",
+        "russian": "Белый медведь",
+        "spanish": "Oso polar",
+        "taiwanese": "北極熊"
       }
     },
     {
@@ -12601,7 +12856,7 @@
       ],
       "locaText": {
         "english": "Silken Fabrics",
-        "german": "Seidenstoff",
+        "german": "Seidentuch",
         "brazilian": "Ornate Fabric",
         "chinese": "丝绸缎布",
         "french": "Satins",
@@ -13057,7 +13312,7 @@
         "polish": "Mistrzyni szlifierska",
         "portuguese": "Lapidary",
         "russian": "Гранильщик",
-        "spanish": "Lapidario",
+        "spanish": "Lapidaria",
         "taiwanese": "玉石工匠"
       }
     },
@@ -13189,7 +13444,7 @@
         "polish": "Dekoratorka tortów",
         "portuguese": "Fine Cake Decorator",
         "russian": "Украшательница тортов",
-        "spanish": "Decorador de tartas",
+        "spanish": "Decoradora de tartas",
         "taiwanese": "優質蛋糕裝飾師"
       }
     },
@@ -13339,14 +13594,14 @@
         "german": "Rumbrennerin",
         "brazilian": "Rum Maker",
         "chinese": "朗姆酒走私者",
-        "french": "Contrebandier",
+        "french": "Contrebandière",
         "italian": "Atleta di rum",
         "japanese": "酒密輸人",
         "korean": "주류 밀수업자",
         "polish": "Przemytniczka",
         "portuguese": "Rumrunner",
         "russian": "Бутлегер",
-        "spanish": "Rumiador de ron",
+        "spanish": "Rumiadora de ron",
         "taiwanese": "蘭姆酒走私者"
       }
     },
@@ -13452,7 +13707,7 @@
         "polish": "Szanowany enolog",
         "portuguese": "Respected Oenologist",
         "russian": "Уважаемый энолог",
-        "spanish": "Enólogo de renombre",
+        "spanish": "Enóloga de renombre",
         "taiwanese": "享譽釀酒師"
       }
     },
@@ -13871,7 +14126,7 @@
         "polish": "Bardzo doświadczona wykładowczyni",
         "portuguese": "Very Senior Lecturer",
         "russian": "Опытный лектор",
-        "spanish": "Orador muy mayor",
+        "spanish": "Oradora muy mayor",
         "taiwanese": "超級資深講師"
       }
     },
@@ -14053,7 +14308,7 @@
         "polish": "Zbieracz",
         "portuguese": "Picker",
         "russian": "Собиратель",
-        "spanish": "Recolector",
+        "spanish": "Recolectora",
         "taiwanese": "採集工人"
       }
     },
@@ -14079,7 +14334,7 @@
         "polish": "Rolnik",
         "portuguese": "Agriculturalist",
         "russian": "Агроном",
-        "spanish": "Agricultor",
+        "spanish": "Agricultora",
         "taiwanese": "農學家"
       }
     },
@@ -14371,7 +14626,7 @@
         "polish": "Spawaczka",
         "portuguese": "Welder",
         "russian": "Сварщица",
-        "spanish": "Soldador",
+        "spanish": "Soldadora",
         "taiwanese": "焊工"
       }
     },
@@ -14633,7 +14888,7 @@
         "polish": "Skrupulatna pani doktor",
         "portuguese": "Physician",
         "russian": "Педантичный доктор",
-        "spanish": "Físico puntilloso",
+        "spanish": "Física puntillosa",
         "taiwanese": "循規蹈矩醫生"
       }
     },
@@ -15428,7 +15683,7 @@
         "polish": "Rafinatorka",
         "portuguese": "Refiner",
         "russian": "Специалистка по нефтепереработке",
-        "spanish": "Refinador",
+        "spanish": "Refinadora",
         "taiwanese": "提煉者"
       }
     },
@@ -17750,7 +18005,7 @@
         "polish": "Pasztetniczka",
         "portuguese": "Pastry Cook",
         "russian": "Пирожница",
-        "spanish": "Pastelero",
+        "spanish": "Pastelera",
         "taiwanese": "糕點師"
       }
     },
@@ -18055,7 +18310,7 @@
         "german": "Couturière",
         "brazilian": "Fine Couturier",
         "chinese": "高级时装裁缝",
-        "french": "Grand créateur",
+        "french": "Grande créatrice",
         "italian": "Couturier",
         "japanese": "高級婦人服ドレスメーカー",
         "korean": "고급 의류 디자이너",
@@ -18429,7 +18684,7 @@
         "polish": "Projektantka kreacji",
         "portuguese": "Costume Designer",
         "russian": "Известный модельер",
-        "spanish": "Diseñador de vestuario",
+        "spanish": "Diseñadora de vestuario",
         "taiwanese": "服裝設計師"
       }
     },
@@ -18877,7 +19132,7 @@
         "polish": "Bimbrowniczka",
         "portuguese": "Moonshiner",
         "russian": "Самогонщица",
-        "spanish": "Alambiquero",
+        "spanish": "Alambiquera",
         "taiwanese": "私酒釀造者"
       }
     },
@@ -19088,7 +19343,7 @@
         "polish": "Wytwórczyni konserw",
         "portuguese": "Canner",
         "russian": "Мастер консервирования",
-        "spanish": "Envasador",
+        "spanish": "Envasadora",
         "taiwanese": "裝罐工"
       }
     },
@@ -19114,7 +19369,7 @@
         "polish": "Kucharka",
         "portuguese": "Mixer",
         "russian": "Мешальщица",
-        "spanish": "Mezclador",
+        "spanish": "Mezcladora",
         "taiwanese": "配料大廚"
       }
     },
@@ -19219,7 +19474,7 @@
         "polish": "Znawczyni warzyw",
         "portuguese": "Waitress",
         "russian": "Мастер приготовления супов",
-        "spanish": "Ideador de comidas",
+        "spanish": "Ideadora de comidas",
         "taiwanese": "濃湯大廚"
       }
     },
@@ -19324,7 +19579,7 @@
         "polish": "Mistrz zapasów",
         "portuguese": "Chef de Partie",
         "russian": "Мастер приготовления холодных блюд",
-        "spanish": "Jefe de despensa",
+        "spanish": "Chef de cocina fría",
         "taiwanese": "冷盤大廚"
       }
     },
@@ -19376,7 +19631,7 @@
         "polish": "Kucharz Michel",
         "portuguese": "Chef Michel",
         "russian": "Повар Мишель",
-        "spanish": "Jefe Michel",
+        "spanish": "Chef Michel",
         "taiwanese": "米歇爾大廚"
       }
     },
@@ -19455,7 +19710,7 @@
         "polish": "Rękodzielniczka",
         "portuguese": "Repairman",
         "russian": "Ремесленница",
-        "spanish": "Artesano",
+        "spanish": "Artesana",
         "taiwanese": "手工藝工匠"
       }
     },
@@ -19798,7 +20053,7 @@
         "polish": "Mistrz stolarski Morris",
         "portuguese": "Master Artisan",
         "russian": "Искусный столяр Моррис",
-        "spanish": "Maestra artesana Morris",
+        "spanish": "Maestro artesano Morris",
         "taiwanese": "「工藝名人」莫里斯"
       }
     },
@@ -19810,8 +20065,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Gunner",
@@ -19837,8 +20092,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Artillerywoman",
@@ -19864,8 +20119,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Cannoneer",
@@ -19891,8 +20146,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Colonel Barzagli",
@@ -19918,8 +20173,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         46
       ],
       "locaText": {
@@ -19946,8 +20201,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         46
       ],
       "locaText": {
@@ -19974,8 +20229,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         46
       ],
       "locaText": {
@@ -20098,7 +20353,7 @@
         "polish": "Kapitan Kadijah",
         "portuguese": "Ship Master",
         "russian": "Капитан Кадиджа",
-        "spanish": "Capitán Kadijah",
+        "spanish": "Capitana Kadijah",
         "taiwanese": "卡帝札船長"
       }
     },
@@ -20327,14 +20582,14 @@
         "german": "Verkaufsberaterin",
         "brazilian": "Retailer",
         "chinese": "店员",
-        "french": "Vendeur",
+        "french": "Vendeuse",
         "italian": "Addetto alle vendite",
         "japanese": "店員",
         "korean": "판매원",
         "polish": "Ekspedientka",
         "portuguese": "Retailer",
         "russian": "Продавщица",
-        "spanish": "Dependiente",
+        "spanish": "Dependienta",
         "taiwanese": "店員"
       }
     },
@@ -20490,7 +20745,7 @@
         "polish": "Nauczycielka",
         "portuguese": "Preceptor",
         "russian": "Школьная учительница",
-        "spanish": "Profesor de colegio",
+        "spanish": "Profesora de colegio",
         "taiwanese": "學校老師"
       }
     },
@@ -20621,7 +20876,7 @@
         "polish": "Administrator",
         "portuguese": "Steward",
         "russian": "Стюард",
-        "spanish": "Azafata",
+        "spanish": "Azafato",
         "taiwanese": "管家"
       }
     },
@@ -20719,14 +20974,14 @@
         "german": "Postbankierin",
         "brazilian": "Postal Banker",
         "chinese": "邮政金融行员",
-        "french": "Banquier postal",
+        "french": "Banquière postale",
         "italian": "Addetto postale",
         "japanese": "郵便バンカー",
         "korean": "우편 은행가",
         "polish": "Urzędniczka pocztowa",
         "portuguese": "Money-Lender",
         "russian": "Почтовый банкир",
-        "spanish": "Banquero postal",
+        "spanish": "Banquera postal",
         "taiwanese": "郵政金融行員"
       }
     },
@@ -20834,7 +21089,7 @@
         "polish": "Hodowczyni",
         "portuguese": "Raiser",
         "russian": "Животновод",
-        "spanish": "Ganadero",
+        "spanish": "Ganadera",
         "taiwanese": "畜牧農家"
       }
     },
@@ -21030,8 +21285,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Ensign",
@@ -21057,8 +21312,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Gunsmith",
@@ -21084,8 +21339,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Former Pirate",
@@ -21111,8 +21366,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Sergeant",
@@ -21138,8 +21393,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Captain of Marines",
@@ -21165,8 +21420,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Former Corsair",
@@ -21192,8 +21447,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Ship's Chaplain",
@@ -21219,8 +21474,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Vice-Admiral Adams",
@@ -21233,7 +21488,7 @@
         "korean": "해군 중장 아담스",
         "polish": "Wiceadmirał Adams",
         "portuguese": "Grand Admiral",
-        "russian": "Вице-адмирал Адамс",
+        "russian": "Адмирал Адамс",
         "spanish": "Vicealmirante Adams",
         "taiwanese": "亞當斯海軍中將"
       }
@@ -21246,8 +21501,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Vice-Admiral Romanov",
@@ -21260,7 +21515,7 @@
         "korean": "해군 중장 로마노프",
         "polish": "Wiceadmirał Romanow",
         "portuguese": "Chief of the Navy",
-        "russian": "Вице-адмирал Романова",
+        "russian": "Адмирал Романова",
         "spanish": "Vicealmirante Romanov",
         "taiwanese": "羅曼諾夫海軍中將"
       }
@@ -21273,8 +21528,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Vice-Almirante Gonçalves",
@@ -21287,7 +21542,7 @@
         "korean": "해군 중장 곤사우베스",
         "polish": "Wiceadmirał Gonçalves",
         "portuguese": "Admiral of the Fleet",
-        "russian": "Вице-адмирал Гонсал",
+        "russian": "Адмирал Гонсал",
         "spanish": "Vicealmirante Gonçalves",
         "taiwanese": "貢薩維斯海軍中將"
       }
@@ -21300,8 +21555,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Vice-Almirante Paulista",
@@ -21314,7 +21569,7 @@
         "korean": "해군 중장 파울리스타",
         "polish": "Wiceadmirał Paulista",
         "portuguese": "Senior Commodore",
-        "russian": "Вице-адмирал Паулиста",
+        "russian": "Адмирал Паулиста",
         "spanish": "Vicealmirante Paulista",
         "taiwanese": "波利斯塔海軍中將"
       }
@@ -21472,7 +21727,7 @@
         "polish": "Eksporter towarowy",
         "portuguese": "Exporter",
         "russian": "Поставщик товаров за рубеж",
-        "spanish": "Exportador de bienes",
+        "spanish": "Exportadora de bienes",
         "taiwanese": "貨物出口商"
       }
     },
@@ -21550,7 +21805,7 @@
         "polish": "Dyplomatka Delores",
         "portuguese": "Renowned Diplomat",
         "russian": "Дипломат Делорес",
-        "spanish": "Delores, diplomático",
+        "spanish": "Delores, diplomática",
         "taiwanese": "外交官德洛斯"
       }
     },
@@ -24918,8 +25173,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -24946,8 +25201,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -24974,8 +25229,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -25086,8 +25341,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -25114,8 +25369,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -25169,8 +25424,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         45,
+        76,
         29,
         77
       ],
@@ -25198,8 +25453,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         45,
+        76,
         29,
         77
       ],
@@ -25227,8 +25482,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         45,
+        76,
         29,
         77
       ],
@@ -25256,8 +25511,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         45,
+        76,
         29,
         77
       ],
@@ -25285,8 +25540,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         45,
+        76,
         29,
         77
       ],
@@ -25314,8 +25569,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         45,
+        76,
         29,
         77
       ],
@@ -25343,8 +25598,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -25371,8 +25626,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -25399,8 +25654,8 @@
       "allocation": 4065,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -25437,7 +25692,7 @@
         "french": "Plants de plantains",
         "italian": "Alberelli di banana",
         "japanese": "バナナの若木",
-        "korean": "플랜테인 묘묙",
+        "korean": "플랜테인 묘목",
         "polish": "Sadzonki banana",
         "portuguese": "Small Plantain Saplings",
         "russian": "Саженцы банана",
@@ -25463,7 +25718,7 @@
         "french": "Plants de plantains supérieurs",
         "italian": "Alberelli di banana di qualità",
         "japanese": "上質なバナナの若木",
-        "korean": "고급 플랜테인 묘묙",
+        "korean": "고급 플랜테인 묘목",
         "polish": "Sadzonki banana wysokiej jakości",
         "portuguese": "Plantain Saplings",
         "russian": "Отборные саженцы банана",
@@ -25489,7 +25744,7 @@
         "french": "Plants de plantains hybrides",
         "italian": "Alberelli di banana ibridi",
         "japanese": "ハイブリッドのバナナの若木",
-        "korean": "교배종 플랜테인 묘묙",
+        "korean": "교배종 플랜테인 묘목",
         "polish": "Hybrydowe sadzonki banana",
         "portuguese": "Large Plantain Saplings",
         "russian": "Саженцы гибридного банана",
@@ -25973,8 +26228,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -26001,8 +26256,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -26029,8 +26284,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -26057,8 +26312,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -26085,8 +26340,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -26113,8 +26368,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -26494,8 +26749,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -26522,8 +26777,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -26550,8 +26805,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -26578,8 +26833,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -26955,8 +27210,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         45,
+        76,
         29,
         77
       ],
@@ -26984,8 +27239,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         45,
+        76,
         29,
         77
       ],
@@ -27013,8 +27268,8 @@
       "allocation": 2342,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         45,
+        76,
         29,
         77
       ],
@@ -27042,8 +27297,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -27070,8 +27325,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -27098,8 +27353,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -27126,8 +27381,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
-        73
+        73,
+        76
       ],
       "locaText": {
         "english": "Black Flag",
@@ -27153,8 +27408,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -27181,8 +27436,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {
@@ -27209,8 +27464,8 @@
       "allocation": 12812,
       "tradePriceModifier": 0,
       "traders": [
-        76,
         73,
+        76,
         220
       ],
       "locaText": {

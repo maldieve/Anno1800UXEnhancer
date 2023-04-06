@@ -135,7 +135,7 @@
         },
         {
             "guid": 410083,
-            "icon": "icon_kontor_main.png",
+            "icon": "icon_dlc_docklands_256.png",
             "id": "dlc7",
             "locaText": {
                 "chinese": "港湾",
@@ -154,7 +154,7 @@
         },
         {
             "guid": 410084,
-            "icon": "icon_visitor_harbour.png",
+            "icon": "icon_dlc_tourist_season_256.png",
             "id": "dlc8",
             "locaText": {
                 "chinese": "旅行旺季",
@@ -192,7 +192,7 @@
         },
         {
             "guid": 24961,
-            "icon": "icon_dlc_seeds_of_change_128.png",
+            "icon": "icon_dlc_seeds_of_change_256.png",
             "id": "dlc10",
             "locaText": {
                 "chinese": "变革之种",
@@ -211,7 +211,7 @@
         },
         {
             "guid": 24962,
-            "icon": "icon_dlc_empire_of_the_skies_128.png",
+            "icon": "icon_dlc_empire_of_the_skies_256.png",
             "id": "dlc11",
             "locaText": {
                 "chinese": "帝国领空",
@@ -230,7 +230,7 @@
         },
         {
             "guid": 24963,
-            "icon": "icon_dlc_new_world_rising_128.png",
+            "icon": "icon_dlc_new_world_rising_256.png",
             "id": "dlc12",
             "locaText": {
                 "chinese": "新兴世界",
@@ -904,7 +904,7 @@
                     "Product": 1010366
                 }
             ],
-            "name": "Fertiliser Works",
+            "name": "Hacienda",
             "outputs": [
                 {
                     "Amount": 1,
@@ -1004,6 +1004,7 @@
             ],
             "palaceBuff": 269566,
             "region": 5000000,
+            "setBuff": 124209,
             "tpmin": 0.5
         },
         {
@@ -1138,8 +1139,8 @@
                     "StorageAmount": 8
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000000,
+            "setBuff": 191141,
             "tpmin": 4
         },
         {
@@ -1272,8 +1273,8 @@
                     "StorageAmount": 4
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000000,
+            "setBuff": 191141,
             "tpmin": 1
         },
         {
@@ -1447,8 +1448,8 @@
                     "StorageAmount": 1
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000000,
+            "setBuff": 191141,
             "tpmin": 0.5
         },
         {
@@ -1489,8 +1490,8 @@
                     "StorageAmount": 4
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000000,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -1935,8 +1936,8 @@
                     "StorageAmount": 4
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000000,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -3034,8 +3035,8 @@
                     "StorageAmount": 4
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000000,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -3561,7 +3562,7 @@
                 "polish": "Fabryka maszyn do szycia",
                 "portuguese": "Sewing Machine Factory",
                 "russian": "Фабрика швейных машин",
-                "spanish": "Fábrica de máquinas de costura",
+                "spanish": "Fábrica de máquinas de coser",
                 "taiwanese": "縫紉機器工廠"
             },
             "maintenances": [
@@ -4065,8 +4066,8 @@
                     "StorageAmount": 8
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000001,
+            "setBuff": 191141,
             "tpmin": 4
         },
         {
@@ -4217,6 +4218,7 @@
                 }
             ],
             "region": 5000001,
+            "setBuff": 124209,
             "tpmin": 1
         },
         {
@@ -4270,18 +4272,18 @@
             "icon": "icon_alpaca_wool.png",
             "locaText": {
                 "brazilian": "Alpaca Farm",
-                "chinese": "Alpaca Farm",
+                "chinese": "羊驼牧场",
                 "english": "Alpaca Farm",
-                "french": "Alpaca Farm",
-                "german": "Alpaca Farm",
-                "italian": "Alpaca Farm",
-                "japanese": "Alpaca Farm",
-                "korean": "Alpaca Farm",
-                "polish": "Alpaca Farm",
+                "french": "Élevage d'alpagas",
+                "german": "Alpakafarm",
+                "italian": "Fattoria di alpaca",
+                "japanese": "アルパカ牧場",
+                "korean": "알파카 농장",
+                "polish": "Farma alpak",
                 "portuguese": "Alpaca Farm",
-                "russian": "Alpaca Farm",
-                "spanish": "Alpaca Farm",
-                "taiwanese": "Alpaca Farm"
+                "russian": "Ферма альпака",
+                "spanish": "Granja de alpacas",
+                "taiwanese": "羊駝牧場"
             },
             "maintenances": [
                 {
@@ -4306,6 +4308,7 @@
                 }
             ],
             "region": 5000001,
+            "setBuff": 124209,
             "tpmin": 2
         },
         {
@@ -4594,8 +4597,8 @@
                     "StorageAmount": 4
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000001,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -6376,8 +6379,8 @@
                     "StorageAmount": 10
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000001,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -6428,8 +6431,8 @@
                     "StorageAmount": 10
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000001,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -6481,8 +6484,8 @@
                     "StorageAmount": 10
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000001,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -6534,8 +6537,8 @@
                     "StorageAmount": 10
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000001,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -7248,8 +7251,8 @@
                     "VectorElement": null
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000001,
+            "setBuff": 191141,
             "tpmin": 6
         },
         {
@@ -7636,7 +7639,7 @@
             "guid": 114439,
             "icon": "icon_watusi.png",
             "locaText": {
-                "chinese": "桑加农场",
+                "chinese": "桑加牧场",
                 "english": "Sanga Farm",
                 "french": "Élevage de sangas",
                 "german": "Sanga-Farm",
@@ -9178,6 +9181,7 @@
                     "ShutdownThreshold": 0.2
                 }
             ],
+            "name": "Orchard: Jam",
             "outputs": [
                 {
                     "Amount": 1,
@@ -9185,8 +9189,8 @@
                     "StorageAmount": 10
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000000,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -9236,8 +9240,8 @@
                     "StorageAmount": 10
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000000,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -9287,8 +9291,8 @@
                     "StorageAmount": 10
                 }
             ],
-            "palaceBuff": 191141,
             "region": 5000000,
+            "setBuff": 191141,
             "tpmin": 2
         },
         {
@@ -9981,6 +9985,7 @@
                 }
             ],
             "region": 5000001,
+            "setBuff": 124209,
             "tpmin": 2
         },
         {
@@ -10552,7 +10557,7 @@
                 "italian": "Fabbrica di montaggio automobilistica",
                 "japanese": "モーター組み立て工場",
                 "korean": "전동기 조립 공장",
-                "polish": "Montażownia samochodów",
+                "polish": "Montażownia silników",
                 "russian": "Линия сборки двигателей",
                 "spanish": "Planta de ensamblaje de motores",
                 "taiwanese": "馬達裝配廠"
@@ -11038,7 +11043,7 @@
                 "german": "Labor: Feuerlöscher",
                 "italian": "Laboratorio: estintore",
                 "japanese": "アーセナル: 消火器",
-                "korean": "무기고: 소화기",
+                "korean": "연구소: 소화기",
                 "polish": "Laboratorium przemysłowe: gaśnica",
                 "russian": "Лаборатория: Огнетушитель",
                 "spanish": "Laboratorio: extintor",
@@ -11097,7 +11102,7 @@
                 "german": "Labor: Medizin",
                 "italian": "Laboratorio: medicina",
                 "japanese": "アーセナル: 薬",
-                "korean": "무기고: 의약품",
+                "korean": "연구소: 의약품",
                 "polish": "Laboratorium przemysłowe: medycyna",
                 "russian": "Лаборатория: Лекарства",
                 "spanish": "Laboratorio: medicina",
@@ -11151,7 +11156,7 @@
                 "german": "Labor: Pigmente",
                 "italian": "Laboratorio: pigmenti",
                 "japanese": "アーセナル: 顔料",
-                "korean": "무기고: 안료",
+                "korean": "연구소: 안료",
                 "polish": "Laboratorium przemysłowe: pigmenty",
                 "russian": "Лаборатория: Пигменты",
                 "spanish": "Laboratorio: pigmentos",
@@ -11206,6 +11211,7 @@
                 }
             ],
             "region": 5000001,
+            "setBuff": 124209,
             "tpmin": 0.25
         },
         {
@@ -11235,6 +11241,7 @@
                 }
             ],
             "region": 5000001,
+            "setBuff": 124209,
             "tpmin": 1
         },
         {
@@ -11265,6 +11272,7 @@
                 }
             ],
             "region": 5000001,
+            "setBuff": 124209,
             "tpmin": 0.5
         }
     ],
@@ -11555,7 +11563,7 @@
                 "polish": "Dekoratorka tortów",
                 "portuguese": "Fine Cake Decorator",
                 "russian": "Украшательница тортов",
-                "spanish": "Decorador de tartas",
+                "spanish": "Decoradora de tartas",
                 "taiwanese": "優質蛋糕裝飾師"
             },
             "name": "Fine Cake Decorator"
@@ -12170,7 +12178,7 @@
                 "polish": "Gerhard Fuchs, od patentowanych okularów.",
                 "portuguese": "Moritz von Rohr - The Eyeglass Lens Designer",
                 "russian": "Герхард Фукс, создатель оригинальной линзы.",
-                "spanish": "Gerhard Fuchs, patentador de las gafas.",
+                "spanish": "Gerhard Fuchs, patentador de las gafas",
                 "taiwanese": "「專利眼鏡」的葛爾哈德．福契斯"
             },
             "name": "Gerhard Fuchs, of the Patent Eyeglass.",
@@ -12317,7 +12325,7 @@
                 "brazilian": "Fine Couturier",
                 "chinese": "高级时装裁缝",
                 "english": "Fine Couturier",
-                "french": "Grand créateur",
+                "french": "Grande créatrice",
                 "german": "Couturière",
                 "italian": "Couturier",
                 "japanese": "高級婦人服ドレスメーカー",
@@ -12348,7 +12356,7 @@
                 "polish": "Projektantka kreacji",
                 "portuguese": "Costume Designer",
                 "russian": "Известный модельер",
-                "spanish": "Diseñador de vestuario",
+                "spanish": "Diseñadora de vestuario",
                 "taiwanese": "服裝設計師"
             },
             "name": "Costume Designer",
@@ -13272,7 +13280,7 @@
                 "polish": "Mistrz zapasów",
                 "portuguese": "Chef de Partie",
                 "russian": "Мастер приготовления холодных блюд",
-                "spanish": "Jefe de despensa",
+                "spanish": "Chef de cocina fría",
                 "taiwanese": "冷盤大廚"
             },
             "name": "Pantry Chef",
@@ -13303,7 +13311,7 @@
                 "polish": "Kucharz Michel",
                 "portuguese": "Chef Michel",
                 "russian": "Повар Мишель",
-                "spanish": "Jefe Michel",
+                "spanish": "Chef Michel",
                 "taiwanese": "米歇爾大廚"
             },
             "name": "Chef Michel",
@@ -13709,7 +13717,7 @@
                 "polish": "Mistrz stolarski Morris",
                 "portuguese": "Master Artisan",
                 "russian": "Искусный столяр Моррис",
-                "spanish": "Maestra artesana Morris",
+                "spanish": "Maestro artesano Morris",
                 "taiwanese": "「工藝名人」莫里斯"
             },
             "name": "Master Craftsman Morris"
@@ -14408,6 +14416,39 @@
                 {
                     "AdditionalOutputCycle": 3,
                     "Amount": 1,
+                    "Product": 24807
+                }
+            ],
+            "dlcs": [
+                "dlc10"
+            ],
+            "factories": [
+                101269,
+                101272,
+                5457
+            ],
+            "guid": 24806,
+            "icon": "icon_dung.png",
+            "locaText": {
+                "chinese": "正在制造粪便",
+                "english": "Producing Dung",
+                "french": "Production de fumier",
+                "german": "Produziert Mist",
+                "italian": "Produzione di letame",
+                "japanese": "フンを生産中",
+                "korean": "분변 생산 중",
+                "polish": "Wytwarzanie gnoju",
+                "russian": "Производит навоз",
+                "spanish": "Produciendo estiércol",
+                "taiwanese": "正在製造糞便"
+            },
+            "name": "Producing Dung"
+        },
+        {
+            "additionalOutputs": [
+                {
+                    "AdditionalOutputCycle": 3,
+                    "Amount": 1,
                     "Product": 112695
                 }
             ],
@@ -14441,39 +14482,6 @@
                     "OldInput": 1955
                 }
             ]
-        },
-        {
-            "additionalOutputs": [
-                {
-                    "AdditionalOutputCycle": 3,
-                    "Amount": 1,
-                    "Product": 24807
-                }
-            ],
-            "dlcs": [
-                "dlc10"
-            ],
-            "factories": [
-                101269,
-                101272,
-                5457
-            ],
-            "guid": 24806,
-            "icon": "icon_dung.png",
-            "locaText": {
-                "chinese": "正在制造粪便",
-                "english": "Producing Dung",
-                "french": "Production de fumier",
-                "german": "Produziert Mist",
-                "italian": "Produzione di letame",
-                "japanese": "フンを生産中",
-                "korean": "분변 생산 중",
-                "polish": "Wytwarzanie gnoju",
-                "russian": "Производит навоз",
-                "spanish": "Produciendo estiércol",
-                "taiwanese": "正在製造糞便"
-            },
-            "name": "Producing Dung"
         },
         {
             "additionalOutputs": [
@@ -17354,198 +17362,6 @@
             },
             "name": "Skilled Labour Act",
             "product": 135129
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 1010266,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 120008
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 101260,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 120008
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 1010558,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 1010209
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 1010310,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 1010232
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 1010560,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 1010228
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 100416,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 1010201
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 1010309,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 1010231
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 101267,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 1010201
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 1308,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 836
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 133004,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 133095
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 133030,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 133093
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 133031,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 133097
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 133496,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 133183
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 134614,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 134616
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 135085,
-            "guid": 191141,
-            "name": "Bronze Age Exhibition",
-            "product": 135086
-        },
-        {
-            "additionalOutputCycle": 10,
-            "amount": 1,
-            "dlcs": [
-                "dlc4"
-            ],
-            "factory": 135088,
-            "guid": 191141,
-            "icon": "icon_museum_celts_stonehenge.png",
-            "locaText": {
-                "brazilian": "Megaliths Spirit Exhibition",
-                "chinese": "青铜时代展览会",
-                "english": "Bronze Age Exhibition",
-                "french": "Exposition : Âge du Bronze",
-                "german": "Ausstellung: Bronzezeit",
-                "italian": "Esposizione Età del bronzo",
-                "japanese": "青銅器時代展覧会",
-                "korean": "청동기 시대 전시회",
-                "polish": "Wystawa \"Epoka brązu\"",
-                "portuguese": "Bronze Age Exhibition",
-                "russian": "Выставка \"Бронзовый век\"",
-                "spanish": "Exposición de la edad de bronce",
-                "taiwanese": "青銅時代展覽會"
-            },
-            "name": "Bronze Age Exhibition",
-            "product": 135087
         },
         {
             "additionalOutputCycle": 1,
@@ -21984,7 +21800,7 @@
                 "italian": "Influenza",
                 "japanese": "影響力",
                 "korean": "영향력",
-                "polish": "Wpływ",
+                "polish": "Wpływy",
                 "portuguese": "Influence",
                 "russian": "Влияние",
                 "spanish": "Influencia",
@@ -22181,46 +21997,6 @@
         },
         {
             "exchangeWeight": 0,
-            "guid": 1591,
-            "icon": "icon_mineral_desposits.png",
-            "isAbstract": 1,
-            "locaText": {
-                "chinese": "矿产资源",
-                "english": "Mineral Resource",
-                "french": "Ressource minérale",
-                "german": "Rohstoffvorkommen",
-                "italian": "Risorsa mineraria",
-                "japanese": "鉱物資源",
-                "korean": "광물 자원",
-                "polish": "Surowiec mineralny",
-                "russian": "Минеральные ресурсы",
-                "spanish": "Recursos minerales",
-                "taiwanese": "礦產資源"
-            },
-            "name": "Mineral Resource"
-        },
-        {
-            "exchangeWeight": 0,
-            "guid": 1955,
-            "icon": "icon_fertile_lands.png",
-            "isAbstract": 1,
-            "locaText": {
-                "chinese": "耕种区域",
-                "english": "Cultivation Area",
-                "french": "Zone de culture",
-                "german": "Anbaufläche",
-                "italian": "Area coltivabile",
-                "japanese": "耕作地",
-                "korean": "경작지",
-                "polish": "Obszar pod uprawę",
-                "russian": "Посевная площадь",
-                "spanish": "Zona de cultivo",
-                "taiwanese": "耕種區域"
-            },
-            "name": "Cultivation Area"
-        },
-        {
-            "exchangeWeight": 0,
             "guid": 120022,
             "icon": "icon_electricity.png",
             "isAbstract": 1,
@@ -22259,6 +22035,46 @@
                 "taiwanese": "研究點數"
             },
             "name": "Research Points"
+        },
+        {
+            "exchangeWeight": 0,
+            "guid": 1591,
+            "icon": "icon_mineral_desposits.png",
+            "isAbstract": 1,
+            "locaText": {
+                "chinese": "矿产资源",
+                "english": "Mineral Resource",
+                "french": "Ressource minérale",
+                "german": "Rohstoffvorkommen",
+                "italian": "Risorsa mineraria",
+                "japanese": "鉱物資源",
+                "korean": "광물 자원",
+                "polish": "Surowiec mineralny",
+                "russian": "Минеральные ресурсы",
+                "spanish": "Recursos minerales",
+                "taiwanese": "礦產資源"
+            },
+            "name": "Mineral Resource"
+        },
+        {
+            "exchangeWeight": 0,
+            "guid": 1955,
+            "icon": "icon_fertile_lands.png",
+            "isAbstract": 1,
+            "locaText": {
+                "chinese": "耕种区域",
+                "english": "Cultivation Area",
+                "french": "Zone de culture",
+                "german": "Anbaufläche",
+                "italian": "Area coltivabile",
+                "japanese": "耕作地",
+                "korean": "경작지",
+                "polish": "Obszar pod uprawę",
+                "russian": "Посевная площадь",
+                "spanish": "Zona de cultivo",
+                "taiwanese": "耕種區域"
+            },
+            "name": "Cultivation Area"
         },
         {
             "dlcs": [
@@ -24100,7 +23916,7 @@
                 "polish": "Maszyny do szycia",
                 "portuguese": "Sewing Machines",
                 "russian": "Швейные машины",
-                "spanish": "Máquinas de costura",
+                "spanish": "Máquinas de coser",
                 "taiwanese": "縫紉機"
             },
             "mainFactory": 1010284,
@@ -30646,7 +30462,7 @@
                 "german": "Städtisches Krankenhaus",
                 "italian": "Ospedale cittadino",
                 "japanese": "都市病院",
-                "korean": "시립 은행",
+                "korean": "시립 병원",
                 "polish": "Szpital miejski",
                 "russian": "Городской госпиталь",
                 "spanish": "Hospital urbano",
@@ -30842,7 +30658,7 @@
                 "german": "Städtisches Krankenhaus",
                 "italian": "Ospedale cittadino",
                 "japanese": "都市病院",
-                "korean": "시립 은행",
+                "korean": "시립 병원",
                 "polish": "Szpital miejski",
                 "russian": "Городской госпиталь",
                 "spanish": "Hospital urbano",
@@ -32460,17 +32276,17 @@
             "guid": 7728,
             "icon": "icon_dietary_education.png",
             "locaText": {
-                "chinese": "Dietary Education Initiative",
+                "chinese": "饮食教育提案",
                 "english": "Dietary Education Initiative",
-                "french": "Dietary Education Initiative",
-                "german": "Dietary Education Initiative",
-                "italian": "Dietary Education Initiative",
-                "japanese": "Dietary Education Initiative",
-                "korean": "Dietary Education Initiative",
-                "polish": "Dietary Education Initiative",
-                "russian": "Dietary Education Initiative",
-                "spanish": "Dietary Education Initiative",
-                "taiwanese": "Dietary Education Initiative"
+                "french": "Initiative d'éducation à la diététique",
+                "german": "Initiative für maßvolle Ernährung",
+                "italian": "Iniziativa per l'Educazione alimentare",
+                "japanese": "食育イニシアチブ",
+                "korean": "영양 교육 계획",
+                "polish": "Inicjatywa Edukacji Dietetycznej",
+                "russian": "Проект \"Просвещение в вопросах питания\"",
+                "spanish": "Iniciativa de educación alimentaria",
+                "taiwanese": "飲食教育提案"
             },
             "name": "Dietary Education Initiative",
             "residences": [
@@ -32978,7 +32794,7 @@
                 "polish": "Bardzo doświadczona wykładowczyni",
                 "portuguese": "Very Senior Lecturer",
                 "russian": "Опытный лектор",
-                "spanish": "Orador muy mayor",
+                "spanish": "Oradora muy mayor",
                 "taiwanese": "超級資深講師"
             },
             "name": "Very Senior Lecturer",
@@ -33630,6 +33446,171 @@
             "residences": [
                 1010343,
                 1010344
+            ]
+        },
+        {
+            "allowStacking": true,
+            "effects": [
+                {
+                    "consumptionModifier": 0,
+                    "guid": 1010193,
+                    "residents": 0,
+                    "suppliedBy": [
+                        1010350
+                    ]
+                },
+                {
+                    "consumptionModifier": 0,
+                    "guid": 120044,
+                    "residents": 0,
+                    "suppliedBy": [
+                        120050
+                    ]
+                }
+            ],
+            "guid": 191738,
+            "icon": "icon_book_comon.png",
+            "locaText": {
+                "chinese": "节日盛装法",
+                "english": "Sunday Best Law",
+                "french": "Loi sur le devoir dominical",
+                "german": "Kleidungs​gesetz für Sonntage",
+                "italian": "Legge sulla domenica migliore",
+                "japanese": "日曜ベスト法",
+                "korean": "나들이옷 법",
+                "polish": "Prawo o ubraniu niedzielnym",
+                "portuguese": "High Holy Day Celebration Ordinance",
+                "russian": "Закон о воскресной службе",
+                "spanish": "Ley de ropa de los domingos",
+                "taiwanese": "節日盛裝法"
+            },
+            "name": "Sunday Best Law",
+            "residences": [
+                1010344,
+                101254,
+                24792
+            ]
+        },
+        {
+            "allowStacking": true,
+            "effects": [
+                {
+                    "consumptionModifier": 0,
+                    "guid": 1010197,
+                    "residents": 0,
+                    "suppliedBy": [
+                        1010350
+                    ]
+                },
+                {
+                    "consumptionModifier": 0,
+                    "guid": 1010193,
+                    "residents": 0,
+                    "suppliedBy": [
+                        1010350
+                    ]
+                },
+                {
+                    "consumptionModifier": 0,
+                    "guid": 120044,
+                    "residents": 0,
+                    "suppliedBy": [
+                        120050
+                    ]
+                }
+            ],
+            "guid": 191739,
+            "icon": "icon_book_uncommon.png",
+            "locaText": {
+                "chinese": "强制弥撒法",
+                "english": "Mandatory Mass Law",
+                "french": "Loi sur la messe obligatoire",
+                "german": "Obligatorische-​Messengesetz",
+                "italian": "Legge sulla massa mandataria",
+                "japanese": "必須ミサ法",
+                "korean": "의무 미사 법",
+                "polish": "Prawo o obowiązkowym udziale we mszy",
+                "portuguese": "Sunday Mass Ordinance",
+                "russian": "Закон об обязательной мессе",
+                "spanish": "Ley de misa obligatoria",
+                "taiwanese": "強制彌撒法"
+            },
+            "name": "Mandatory Mass Law",
+            "residences": [
+                1010344,
+                1010345,
+                101254,
+                24792
+            ]
+        },
+        {
+            "allowStacking": true,
+            "effects": [
+                {
+                    "consumptionModifier": 0,
+                    "guid": 1010201,
+                    "residents": 0,
+                    "suppliedBy": [
+                        1010350
+                    ]
+                },
+                {
+                    "consumptionModifier": 0,
+                    "guid": 1010197,
+                    "residents": 0,
+                    "suppliedBy": [
+                        1010350
+                    ]
+                },
+                {
+                    "consumptionModifier": 0,
+                    "guid": 1010193,
+                    "residents": 0,
+                    "suppliedBy": [
+                        1010350
+                    ]
+                },
+                {
+                    "consumptionModifier": 0,
+                    "guid": 120044,
+                    "residents": 0,
+                    "suppliedBy": [
+                        120050
+                    ]
+                },
+                {
+                    "consumptionModifier": 0,
+                    "guid": 120030,
+                    "residents": 0,
+                    "suppliedBy": [
+                        120050
+                    ]
+                }
+            ],
+            "guid": 191740,
+            "icon": "icon_book_rare.png",
+            "locaText": {
+                "chinese": "格里郭教长的神圣节日历法",
+                "english": "Patriarch Grigor's Calendar of Holy Days",
+                "french": "Calendrier des jours saints du Patriarche Grigor",
+                "german": "Patriarch Grigors Kalender der heiligen Tage",
+                "italian": "Calendario dei giorni santi del Patriarca Grigor",
+                "japanese": "パトリアーチ・グリゴールの聖日カレンダー",
+                "korean": "그리고르 총대주교의 축제일 일정표",
+                "polish": "Kalendarz dni świątecznych patriarchy Grigora",
+                "portuguese": "Vespers Time Celebration Ordinance",
+                "russian": "Календарь церковных праздников патриарха Григория",
+                "spanish": "Calendario de días sagrados del patriarca Grigor",
+                "taiwanese": "格里郭教長的神聖節日曆法"
+            },
+            "name": "Patriarch Grigor's Calendar of Holy Days",
+            "residences": [
+                1010344,
+                1010345,
+                101254,
+                101255,
+                24792,
+                24793
             ]
         },
         {
@@ -34582,6 +34563,20 @@
                     "residents": 0,
                     "suppliedBy": [
                     ]
+                },
+                {
+                    "consumptionModifier": -30,
+                    "guid": 5381,
+                    "residents": 0,
+                    "suppliedBy": [
+                    ]
+                },
+                {
+                    "consumptionModifier": -30,
+                    "guid": 5382,
+                    "residents": 0,
+                    "suppliedBy": [
+                    ]
                 }
             ],
             "guid": 25634,
@@ -34607,6 +34602,78 @@
                 24793,
                 5405,
                 6086
+            ]
+        },
+        {
+            "allowStacking": true,
+            "effects": [
+                {
+                    "consumptionModifier": -10,
+                    "guid": 1010200,
+                    "residents": 0,
+                    "suppliedBy": [
+                    ]
+                },
+                {
+                    "consumptionModifier": -10,
+                    "guid": 120041,
+                    "residents": 0,
+                    "suppliedBy": [
+                    ]
+                },
+                {
+                    "consumptionModifier": -10,
+                    "guid": 120032,
+                    "residents": 0,
+                    "suppliedBy": [
+                    ]
+                },
+                {
+                    "consumptionModifier": -10,
+                    "guid": 1010257,
+                    "residents": 0,
+                    "suppliedBy": [
+                    ]
+                },
+                {
+                    "consumptionModifier": -10,
+                    "guid": 120035,
+                    "residents": 0,
+                    "suppliedBy": [
+                    ]
+                }
+            ],
+            "guid": 11656,
+            "icon": "item_insect_proof_net.png",
+            "locaText": {
+                "chinese": "公共花园",
+                "english": "Communal Garden",
+                "french": "Jardin partagé",
+                "german": "Gemeinschaftsgarten",
+                "italian": "Giardino comunale",
+                "japanese": "共同庭園",
+                "korean": "공동 정원",
+                "polish": "Ogród komunalny",
+                "russian": "Сквер",
+                "spanish": "Jardín comunal",
+                "taiwanese": "公共花園"
+            },
+            "name": "Communal Garden",
+            "residences": [
+                1010343,
+                1010344,
+                1010345,
+                1010346,
+                1010347,
+                601888,
+                601889,
+                601890,
+                601882,
+                601883,
+                601884,
+                601886,
+                601891,
+                406
             ]
         },
         {
@@ -34819,7 +34886,7 @@
                 "korean": "반교권주의 강연자",
                 "polish": "Antyklerykalny wykładowca",
                 "russian": "Лектор-атеист",
-                "spanish": "Académica anticlerical",
+                "spanish": "Académico anticlerical",
                 "taiwanese": "反教權講師"
             },
             "name": "Anti-Clerical Lecturer",
@@ -38494,17 +38561,17 @@
             "guid": 133361,
             "icon": "icon_black_muscovy.png",
             "locaText": {
-                "chinese": "苦艾酒",
-                "english": "Absinthe",
-                "french": "Absinthe",
-                "german": "Absinth",
-                "italian": "Assenzio",
-                "japanese": "アブサン",
-                "korean": "압생트",
-                "polish": "Absynt",
-                "russian": "Абсент",
-                "spanish": "Absenta",
-                "taiwanese": "苦艾酒"
+                "chinese": "黑色莫斯科大公国",
+                "english": "Black Muscovy",
+                "french": "Black Expresso",
+                "german": "Dunkler Moskowiter",
+                "italian": "Black Muscovy",
+                "japanese": "ブラック・モスコビー",
+                "korean": "블랙 머스코비",
+                "polish": "Czarna Moskal",
+                "russian": "Черный московит",
+                "spanish": "Muscovy negro",
+                "taiwanese": "黑色莫斯科大公國"
             },
             "name": "Black Muscovy",
             "residences": [
@@ -39863,6 +39930,222 @@
             "region": 114327
         }
     ],
+    "setBuffs": [
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 1010266,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 120008
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 101260,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 120008
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 1010558,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 1010209
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 1010310,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 1010232
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 1010560,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 1010228
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 100416,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 1010201
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 1010309,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 1010231
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 101267,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 1010201
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 1308,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 836
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 133004,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 133095
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 133030,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 133093
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 133031,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 133097
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 133496,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 133183
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 134614,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 134616
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 135085,
+            "guid": 191141,
+            "name": "Bronze Age Exhibition",
+            "product": 135086
+        },
+        {
+            "additionalOutputCycle": 10,
+            "amount": 1,
+            "factory": 135088,
+            "guid": 191141,
+            "icon": "icon_museum_celts_stonehenge.png",
+            "locaText": {
+                "brazilian": "Megaliths Spirit Exhibition",
+                "chinese": "青铜时代展览会",
+                "english": "Bronze Age Exhibition",
+                "french": "Exposition : Âge du Bronze",
+                "german": "Ausstellung: Bronzezeit",
+                "italian": "Esposizione Età del bronzo",
+                "japanese": "青銅器時代展覧会",
+                "korean": "청동기 시대 전시회",
+                "polish": "Wystawa \"Epoka brązu\"",
+                "portuguese": "Bronze Age Exhibition",
+                "russian": "Выставка \"Бронзовый век\"",
+                "spanish": "Exposición de la edad de bronce",
+                "taiwanese": "青銅時代展覽會"
+            },
+            "name": "Bronze Age Exhibition",
+            "product": 135087
+        },
+        {
+            "additionalOutputCycle": 3,
+            "amount": 1,
+            "factory": 1010263,
+            "guid": 124209,
+            "name": "Proud Savannah Park",
+            "product": 1010193
+        },
+        {
+            "additionalOutputCycle": 3,
+            "amount": 1,
+            "factory": 101269,
+            "guid": 124209,
+            "name": "Proud Savannah Park",
+            "product": 1010193
+        },
+        {
+            "additionalOutputCycle": 3,
+            "amount": 1,
+            "factory": 101272,
+            "guid": 124209,
+            "name": "Proud Savannah Park",
+            "product": 120036
+        },
+        {
+            "additionalOutputCycle": 3,
+            "amount": 1,
+            "factory": 8026,
+            "guid": 124209,
+            "name": "Proud Savannah Park",
+            "product": 5401
+        },
+        {
+            "additionalOutputCycle": 3,
+            "amount": 1,
+            "factory": 8002,
+            "guid": 124209,
+            "name": "Proud Savannah Park",
+            "product": 5385
+        },
+        {
+            "additionalOutputCycle": 3,
+            "amount": 1,
+            "factory": 8027,
+            "guid": 124209,
+            "name": "Proud Savannah Park",
+            "product": 1010232
+        },
+        {
+            "additionalOutputCycle": 3,
+            "amount": 1,
+            "factory": 5457,
+            "guid": 124209,
+            "icon": "icon_lion.png",
+            "locaText": {
+                "chinese": "骄傲稀树草原公园",
+                "english": "Proud Savannah Park",
+                "french": "Parc de la Fière Savane",
+                "german": "Park: Stolze Savanne",
+                "italian": "Parco della Savana orgogliosa",
+                "japanese": "ライオンのサバンナ園",
+                "korean": "긍지의 사바나 공원",
+                "polish": "Park w Dumnej Sawannie",
+                "russian": "Заповедник \"Гордая саванна\"",
+                "spanish": "Parque de la Sabana Orgullosa",
+                "taiwanese": "驕傲稀樹草原公園"
+            },
+            "name": "Proud Savannah Park",
+            "product": 5384
+        }
+    ],
     "tradeContracts": {
         "loadingSpeedFactor": 3,
         "minimumLoadingTime": 15,
@@ -40065,7 +40348,7 @@
                 "loadingSpeed": 120,
                 "locaText": {
                     "brazilian": "Pier",
-                    "chinese": "码头",
+                    "chinese": "栈桥",
                     "english": "Pier",
                     "french": "Embarcadère",
                     "german": "Anlegestelle",
@@ -40076,7 +40359,7 @@
                     "portuguese": "Pier",
                     "russian": "Пирс",
                     "spanish": "Muelle",
-                    "taiwanese": "碼頭"
+                    "taiwanese": "棧橋"
                 },
                 "minLoadingTime": 5,
                 "name": "Pier"
@@ -40086,7 +40369,7 @@
                 "icon": "icon_docklands_module_pier.png",
                 "loadingSpeed": 180,
                 "locaText": {
-                    "chinese": "码头",
+                    "chinese": "栈桥",
                     "english": "Pier",
                     "french": "Embarcadère",
                     "german": "Anlegestelle",
@@ -40096,7 +40379,7 @@
                     "polish": "Pirs",
                     "russian": "Пирс",
                     "spanish": "Muelle",
-                    "taiwanese": "碼頭"
+                    "taiwanese": "棧橋"
                 },
                 "minLoadingTime": 5,
                 "name": "Pier"
@@ -40106,7 +40389,7 @@
                 "icon": "icon_pier.png",
                 "loadingSpeed": 240,
                 "locaText": {
-                    "chinese": "高端码头",
+                    "chinese": "高端栈桥",
                     "english": "Advanced Pier",
                     "french": "Embarcadère avancé",
                     "german": "Fortschrittliche Anlegestelle",
@@ -40116,7 +40399,7 @@
                     "polish": "Zaawansowany pirs",
                     "russian": "Улучшенный пирс",
                     "spanish": "Muelle avanzado",
-                    "taiwanese": "進階碼頭"
+                    "taiwanese": "進階棧橋"
                 },
                 "minLoadingTime": 5,
                 "name": "Advanced Pier"
