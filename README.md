@@ -39,7 +39,7 @@ One has to ensure that server and client can communicate:
 
   1. The desktop computer must be reachable from the mobile device (e.g. be in the same network, inter device communication is enabled by the router and the mobile device can ping the desktop computer)
   2. The port 8000 must be open for incoming traffic (and responses). Check windows defender and / or the antivirus software
-  3. Search for this.url = 'http://localhost:8000/AnnoServer/Population' in AnnoCalculator.js and replace localhost by the IP address of the desktop computer
+  3. Search for 'http://localhost:8000/AnnoServer/Population' in `dist\calculator.bundle.js` and replace localhost by the IP address of the desktop computer
   4. Open a terminal in administrator mode, navigate to the folder containing the server and enter: ".\Server.exe -h " followed by the ip address of the **desktop** computer (do not add http or anything else)
   
 Connectivity can be checked by entering the url displayed in the terminal into the browser of the mobile device. Then a log "request received" should appear in the terminal.
