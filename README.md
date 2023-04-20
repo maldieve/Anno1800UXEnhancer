@@ -1,3 +1,5 @@
+**German/Deutsch**: https://github-com.translate.goog/NiHoel/Anno1800UXEnhancer?_x_tr_sl=auto&_x_tr_tl=de&_x_tr_hl=de&_x_tr_pto=wapp
+
 # Usage
 
 ## Statistics Extractor
