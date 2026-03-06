@@ -24,8 +24,20 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 
-#include <tesseract/genericvector.h>
+#include <tesseract/tesseract_version.h>
 #include "reader_statistics_screen.hpp"
+
+// GenericVector<STRING> was removed in Tesseract 5.x; use std::vector<std::string> instead
+#if TESSERACT_VERSION >= MAKE_VERSION(5, 0, 0)
+#  include <vector>
+#  include <string>
+using TesseractKeyVector   = std::vector<std::string>;
+using TesseractValueVector = std::vector<std::string>;
+#else
+#  include <tesseract/genericvector.h>
+using TesseractKeyVector   = GenericVector<STRING>;
+using TesseractValueVector = GenericVector<STRING>;
+#endif
 
 
 namespace reader
@@ -1856,8 +1868,8 @@ void image_recognition::update_ocr(const std::string& language, bool numbers_onl
 	const char* lang = numbers_only ? "eng" : tesseract_languages.find(language)->second.c_str();
 	ocr.reset(new tesseract::TessBaseAPI());
 
-	GenericVector<STRING> keys;
-	GenericVector<STRING> values;
+	TesseractKeyVector   keys;
+	TesseractValueVector values;
 
 	keys.push_back("user_defined_dpi");
 	values.push_back("70");
