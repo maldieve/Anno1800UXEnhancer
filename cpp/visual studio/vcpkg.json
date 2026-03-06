@@ -1,0 +1,23 @@
+{
+  "name": "anno1800-ux-enhancer",
+  "version": "12.0.0",
+  "description": "Anno 1800 UX Enhancer – statistics extractor and reroll bot",
+  "dependencies": [
+    "boost-property-tree",
+    "boost-algorithm",
+    "boost-filesystem",
+    "boost-functional",
+    {
+      "name": "tesseract",
+      "features": []
+    },
+    {
+      "name": "cpprestsdk",
+      "features": ["core"]
+    },
+    {
+      "name": "opencv4",
+      "features": ["png", "jpeg"]
+    }
+  ]
+}

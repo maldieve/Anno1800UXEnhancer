@@ -1,0 +1,124 @@
+name: Build
+
+on:
+  push:
+    branches: [ "master", "main" ]
+    tags:
+      - 'v*'
+  pull_request:
+    branches: [ "master", "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    permissions:
+      contents: write   # needed to upload release assets
+
+    steps:
+      - name: Checkout repository (with submodules)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Cache vcpkg packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            cpp/vcpkg/installed
+            cpp/vcpkg/packages
+            cpp/vcpkg/buildtrees
+          key: vcpkg-${{ runner.os }}-${{ hashFiles('cpp/visual studio/vcpkg.json') }}
+          restore-keys: |
+            vcpkg-${{ runner.os }}-
+
+      - name: Bootstrap vcpkg
+        shell: cmd
+        run: |
+          if not exist "cpp\vcpkg\vcpkg.exe" (
+            call "cpp\vcpkg\bootstrap-vcpkg.bat" -disableMetrics
+          )
+
+      - name: Install vcpkg dependencies
+        shell: cmd
+        run: |
+          "cpp\vcpkg\vcpkg.exe" install ^
+            boost-property-tree:x64-windows ^
+            boost-algorithm:x64-windows ^
+            boost-filesystem:x64-windows ^
+            boost-functional:x64-windows ^
+            tesseract:x64-windows ^
+            "cpprestsdk[core]:x64-windows" ^
+            "opencv4[png]:x64-windows" ^
+            "opencv4[jpeg]:x64-windows"
+
+      - name: Add MSBuild to PATH
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Build solution (Release|x64)
+        shell: cmd
+        run: |
+          msbuild "cpp\visual studio\UXEnhancer.sln" ^
+            /p:Configuration=Release ^
+            /p:Platform=x64 ^
+            /p:VcpkgEnabled=true ^
+            /p:VcpkgRoot="%GITHUB_WORKSPACE%\cpp\vcpkg" ^
+            /m
+
+      - name: Collect release artifacts
+        shell: pwsh
+        run: |
+          $releaseDir = "cpp\visual studio\x64\Release"
+          $artifactDir = "release_artifacts"
+          New-Item -ItemType Directory -Path $artifactDir -Force | Out-Null
+
+          # Executables
+          Copy-Item "$releaseDir\Server.exe"      $artifactDir -ErrorAction SilentlyContinue
+          Copy-Item "$releaseDir\UXEnhancer.exe"  $artifactDir -ErrorAction SilentlyContinue
+
+          # Required DLLs from vcpkg
+          $vcpkgBin = "cpp\vcpkg\installed\x64-windows\bin"
+          $dlls = @(
+            "opencv_world4*.dll",
+            "tesseract*.dll",
+            "leptonica*.dll",
+            "cpprest*.dll",
+            "boost_*.dll",
+            "zlib*.dll",
+            "libpng*.dll",
+            "libjpeg*.dll",
+            "libtiff*.dll",
+            "libwebp*.dll",
+            "libsharpyuv*.dll",
+            "zstd*.dll",
+            "bz2*.dll",
+            "gif*.dll"
+          )
+          foreach ($pattern in $dlls) {
+            Get-ChildItem "$vcpkgBin\$pattern" -ErrorAction SilentlyContinue |
+              Copy-Item -Destination $artifactDir
+          }
+
+          # Asset folders (tessdata, texts, icons, image_recon)
+          $assetFolders = @("tessdata", "texts", "icons", "image_recon")
+          foreach ($folder in $assetFolders) {
+            if (Test-Path "assets\$folder") {
+              Copy-Item -Recurse "assets\$folder" "$artifactDir\$folder"
+            }
+          }
+
+          Write-Host "Artifacts collected:"
+          Get-ChildItem $artifactDir -Recurse | Select-Object FullName
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: Anno1800UXEnhancer-${{ github.ref_name }}
+          path: release_artifacts/
+          if-no-files-found: warn
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: release_artifacts/**
+          generate_release_notes: true

@@ -1,4 +1,6 @@
-**German/Deutsch**: https://github-com.translate.goog/NiHoel/Anno1800UXEnhancer?_x_tr_sl=auto&_x_tr_tl=de&_x_tr_hl=de&_x_tr_pto=wapp
+**German/Deutsch**: https://github-com.translate.goog/maldieve/Anno1800UXEnhancer?_x_tr_sl=auto&_x_tr_tl=de&_x_tr_hl=de&_x_tr_pto=wapp
+
+[![Build](https://github.com/maldieve/Anno1800UXEnhancer/actions/workflows/build.yml/badge.svg)](https://github.com/maldieve/Anno1800UXEnhancer/actions/workflows/build.yml)
 
 # Usage
 
@@ -6,7 +8,7 @@
 [![Tutorial](https://raw.githubusercontent.com/NiHoel/Anno1800Calculator/master/CalculatorExtractionScreenshot.png)](https://youtu.be/k4WmgEIkp4s)
 
 - [one-time setup] download, install (and reboot your computer afterwards): [vc_redist](https://support.microsoft.com/en-gb/help/2977003/the-latest-supported-visual-c-downloads)
-- run the Server.exe from the [zip archive](https://github.com/NiHoel/Anno1800UXEnhancer/releases/latest/) which should open a command window and might require administrator rights
+- run the Server.exe from the [zip archive](https://github.com/maldieve/Anno1800UXEnhancer/releases/latest/) which should open a command window and might require administrator rights
 - run [Anno1800Calculator](https://github.com/NiHoel/Anno1800Calculator/releases/latest/) from local file (if not done already)
 - run Anno 1800
 - open the statistic menu (population to update number of houses, finance to update number of factories, production to update productivity)
@@ -74,32 +76,46 @@ In case nothing happens, make sure:
 
 
 # Use prebuild binaries
-- download the latest release from https://github.com/NiHoel/Anno1800UXEnhancer/releases/latest/
+- download the latest release from https://github.com/maldieve/Anno1800UXEnhancer/releases/latest/
 - extract the archive to any location you desire
 
 # Build it yourself 
 ## Requirements
 - Git-installation (e.g. https://git-scm.com/download/win)
-- visual studio 2017 or higher (https://visualstudio.microsoft.com/de/vs/)
+- Visual Studio 2019 or higher (https://visualstudio.microsoft.com/) with the **C++ Desktop development** workload and the **English language pack** installed
 	
 ## Build instructions
-- git clone https://github.com/NiHoel/Anno1800UXEnhancer.git
-- cd Anno1800UXEnhancer
-- SETUP.bat
-- vcpkg install boost-property-tree:x64-windows (takes circa 2 minutes)
-- vcpkg install tesseract:x64-windows (takes circa 17 minutes)
-- vcpkg install cpprestsdk[core]:x64-windows (takes circa 10 minutes)
-- vcpkg install opencv4[png]:x64-windows opencv4[jpeg]:x64-windows (takes circa 7 minutes)
-- <build cpp/visual studio/UXEnhancer.sln>
-			
-## Troubleshooting 
-- copy, move, rename errors during installation: make sure that vcpkg resides on a short path (e.g. accass the folder via a drive letter)
-- vcpkg error "Please install the English language pack. Could not locate a complete toolset."
--> go to visual studio installer -> visual studio communitiy -> change -> language package
--> select english -> click change (bottom right)
-- if visual studio ist not installed on C:/Program Files x86 openGL (as a part of openCV) might fail to build
-possible fix: https://github.com/Microsoft/vcpkg/issues/4377 (untested)	
-or reinstall windows kit on C:/Program Files x86 (can be more tricky than you think)
+```bat
+git clone --recurse-submodules https://github.com/maldieve/Anno1800UXEnhancer.git
+cd Anno1800UXEnhancer
+SETUP.bat
+```
 
-- To update the ui_texts.json place the contents from `Anno 1800/maindata/data2.rda//data/config/gui/` in `cpp/visual studio/CalculatorServer/x64/Release/texts` and delete ui_texts.json. Running the server in release will recreate ui_texts.json from the source files.		
-	
+`SETUP.bat` will bootstrap vcpkg and set up directory links. After that, install the required libraries with vcpkg (all commands run from the repository root):
+
+```bat
+cpp\vcpkg\vcpkg.exe install ^
+  boost-property-tree:x64-windows ^
+  boost-algorithm:x64-windows ^
+  boost-filesystem:x64-windows ^
+  boost-functional:x64-windows ^
+  tesseract:x64-windows ^
+  "cpprestsdk[core]:x64-windows" ^
+  "opencv4[png]:x64-windows" ^
+  "opencv4[jpeg]:x64-windows"
+```
+
+Then open `cpp\visual studio\UXEnhancer.sln` in Visual Studio, select **Release | x64** and build.
+
+> **Tip:** A GitHub Actions workflow (`.github/workflows/build.yml`) is included and will build the solution automatically on every push, producing ready-to-use artifacts.
+
+## Troubleshooting 
+- copy, move, rename errors during installation: make sure that vcpkg resides on a short path (e.g. access the folder via a drive letter)
+- vcpkg error "Please install the English language pack. Could not locate a complete toolset."
+  → go to Visual Studio Installer → Visual Studio Community → Modify → Language Packs → select **English** → click **Modify**
+- if Visual Studio is not installed on `C:\Program Files (x86)`, OpenGL (part of OpenCV) might fail to build.
+  Possible fix: https://github.com/Microsoft/vcpkg/issues/4377
+  or reinstall the Windows SDK to the default location.
+
+- To update `ui_texts.json`, place the contents from `Anno 1800/maindata/data2.rda//data/config/gui/` in `cpp/visual studio/CalculatorServer/x64/Release/texts` and delete `ui_texts.json`. Running the server in release mode will recreate it from the source files.
+
